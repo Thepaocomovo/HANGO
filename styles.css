@@ -1,0 +1,50 @@
+.topo{
+    width: 100%;
+    height: 92px;
+    background-color: red;
+}
+h1{
+    font-Weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+}
+h2{
+    font-Weight: 400;
+    font-size: 18px;
+
+}
+.scrol{
+    width: 100%;
+    background-color: red;
+}
+
+   
+
+
+/* apagar */
+.container> :nth-child(1){
+    background-color: blueviolet;
+}
+.container> :nth-child(2){
+    background-color: green;
+}
+.container> :nth-child(3){
+    background-color: blueviolet;
+}
+
+.opcao{
+    width: 172px;
+    height: 216px;
+    background-color: blue
+}
+
+.pedido{
+    height: 92px;
+    width: 414px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: aqua;
+}
