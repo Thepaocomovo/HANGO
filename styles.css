@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+}
 .topo{
     width: 100%;
     height: 92px;
-    background-color: red;
+    color: #FFFFFF;
+    padding: 10px 0 20px 10px; 
+    font-family: 'Righteous';
+    background-color: #CF2B2B; 
 }
 h1{
     font-Weight: 400;
@@ -13,38 +25,80 @@ h2{
     font-size: 18px;
 
 }
+.titulo{
+    font-weight: 400px;
+    font-size: 26px;
+    font-family: 'Righteous';
+    color: #333333;
+    margin: 35px 0 18px 20px;
+    /* background-color: green; */
+}
+
 .scrol{
     width: 100%;
-    background-color: red;
-}
-
-   
-
-
-/* apagar */
-.container> :nth-child(1){
-    background-color: blueviolet;
-}
-.container> :nth-child(2){
-    background-color: green;
-}
-.container> :nth-child(3){
-    background-color: blueviolet;
+    display: flex;
+    /* background-color: red; */
 }
 
 .opcao{
     width: 172px;
     height: 216px;
-    background-color: blue
+    border-radius: 9px;
+    margin: 0 15px;
+    background-color: #FFFFFF;
 }
+.opcao img{
+    width: 144px; 
+    height: 87px; 
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 16px 14px 8px 14px;
+}
+.optionName{
+	font-weight: 700;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	color: #333333;
+    padding-left: 14px;
+}
+.optionDescription{
+    font-weight: 300;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	color: #A6A6A6;
+    padding: 8px 0 8px 14px;
+}
+.optionPrice{
+    font-weight: 400;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+    padding-left: 14px;
+}
+
+
 
 .pedido{
     height: 92px;
-    width: 414px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
-    background-color: aqua;
+    margin: 16px auto;
+    background-color: #FFFFFF;
+}
+.botao{
+    Width: 365px;
+    Height: 60px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #CBCBCB;
 }
