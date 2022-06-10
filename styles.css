@@ -15,6 +15,9 @@ body{
     font-family: 'Righteous';
     background-color: #CF2B2B;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 h1{
     font-Weight: 400;
@@ -34,6 +37,11 @@ h2{
     margin: 35px 0 18px 20px;
 }
 
+
+.container{
+    margin-top: 127px;
+    margin-bottom: 108px
+}
 .scroll{
     width: 100%;
     display: flex;
@@ -77,8 +85,6 @@ h2{
     padding-left: 14px;
 }
 
-
-
 .pedido{
     height: 92px;
     width: 100%;
@@ -86,8 +92,11 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 16px auto;
+    margin: 0 auto;
     background-color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 .botao{
     Width: 365px;
