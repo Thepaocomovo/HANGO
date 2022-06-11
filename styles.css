@@ -44,7 +44,6 @@ h2{
     margin: 35px 0 18px 20px;
 }
 
-
 .container{
     margin-top: 127px;
     margin-bottom: 108px
@@ -155,7 +154,6 @@ h2{
     transform: translateX(-50%);
     z-index: 4;
     font-family: 'Roboto', sans-serif;
-    
 }
 .fecharPedido{
     display: none;
@@ -165,10 +163,12 @@ h2{
     font-size: 22px;
     color:#FFFFFF;
     display: flex;
-    align-items: center;
-    justify-content: center;
     padding:20px 0;
 }
+.caixaPedido > :nth-child(1) p{
+    display: flex;
+}
+
 .caixaPedido > :nth-child(2){
     display: flex;
     justify-content: space-between;
@@ -200,9 +200,16 @@ h2{
 }
 .content {
     width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.content div{
+    display: flex;
+    justify-content: space-between;
 }
 .content p{
     color: #FFFFFF;
+    display: inline;
     padding-bottom: 15px;
     font-weight: 400;
     font-size: 22px;
@@ -218,7 +225,6 @@ content p :nth-child(4){
     right: 0;
     padding-right: 26px;
 }
-
 
 
 /* Seleção de opções */
@@ -280,14 +286,9 @@ content p :nth-child(4){
     padding-left: 10px;
 }
 
-
 /* Fechar pedido */
-
 .ativado {
     font-size: 20px;
     font-weight: 700;
     background-color: #32B72F;
-    
 }
-
-
