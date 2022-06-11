@@ -145,7 +145,7 @@
         </div>
     </div>
     <!-- barra fixa com botão para fechar pedido -->
-    <div onclick="fecharPedido(this)" class="pedido"> 
+    <div onclick="fecharPedido(this), whatsApp()" class="pedido"> 
         <div class="botao">
             <p>Selecione os 3 itens</p>
             <p>para fechar o pedido</p>
@@ -170,15 +170,15 @@
                         <p class="item3">ccccc</p>
                         <p class="preco3">3</p>
                     </div> 
-                    <div>
+                    <div id="TOTAIS">
                         <p class="total">Total</p>
                         <p class="totalPrice">R$</p>
                     </div>
                 </div>  
-            <div>
-                <a href="https://wa.me/+5511990174306?text=Ol%c3%a1%2c+gostaria+de+fazer+o+pedido%3a%0d%0a-+Prato%3a+Frango+Yin+Yang%0d%0a-+Bebida%3a+Coquinha+Gelada%0d%0a-+Sobremesa%3a+Pudim%0d%0aTotal%3a+R%24+27.70"target="_blank"><p>Tudo certo, pode pedir!</p> </a> 
+            <div class="link">
+                <!-- aqui o link entra pelo JavaScript -->
             </div>
-            <div>
+            <div class="cancel">
                 <p onclick="cancelar(this)" class="cancelar">Cancelar</p>
             </div>
         </div>

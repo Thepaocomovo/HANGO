@@ -8,6 +8,7 @@ body{
     background-color: #E5E5E5;
 }
 a {
+    color: #50D074;
     text-decoration: none;
   }
   a:visited {
@@ -92,7 +93,7 @@ h2{
     padding-left: 14px;
 }
 .icon{
-    font-size 16px;
+    font-size: 16px;
     border-radius: 50%;
     background-color: #32B72F;
 	color:#FFFFFF;
@@ -164,6 +165,7 @@ h2{
     color:#FFFFFF;
     display: flex;
     padding:20px 0;
+    overflow: hidden;
 }
 .caixaPedido > :nth-child(1) p{
     display: flex;
@@ -214,9 +216,10 @@ h2{
     font-weight: 400;
     font-size: 22px;
 }
-content p :nth-child(4){
+#TOTAIS p{
     font-weight: 700;
 }
+
 
 .itens{
     left: 0;
@@ -292,3 +295,29 @@ content p :nth-child(4){
     font-weight: 700;
     background-color: #32B72F;
 }
+@media (max-width: 400px) {
+    .botao{
+        width: 90%;
+    }
+    .caixaPedido{
+        width: 95%;
+    }
+}
+@media (min-width: 1000px) {
+    .topo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .scroll{
+        justify-content: space-around;
+        margin-right: 10%; 
+    }
+}
+
+/* end :) */
