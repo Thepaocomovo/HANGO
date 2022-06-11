@@ -7,6 +7,12 @@
 body{
     background-color: #E5E5E5;
 }
+a {
+    text-decoration: none;
+  }
+  a:visited {
+    color: #50D074;
+  }
 .topo{
     width: 100%;
     height: 92px;
@@ -125,6 +131,96 @@ h2{
     background-color: #CBCBCB;
 }
 
+/* fechar pedido */
+.fundoBranco{
+    width: 100%;
+    height: 200%;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 0;
+    z-index: 3;
+}
+.caixaPedido{
+	Width: 377px;
+	Height: 353px;
+	border-radius: 9px;
+	background-color: #50D074;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	position: fixed;
+    margin: 0 auto;
+	top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.fecharPedido{
+    display: none;
+}
+.caixaPedido > :nth-child(1){
+    font-weight: 700;
+    font-size: 22px;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px 0;
+}
+.caixaPedido > :nth-child(2){
+    display: flex;
+    justify-content: space-between;
+}
+.caixaPedido > :nth-child(3){
+    width: 329px;
+    height: 52px;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    color: #50D074;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    border-radius: 100px;
+}
+.cancelar{
+    width: 333px;
+    height: 52px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #50D074;
+}
+.content {
+    width: 90%;
+}
+.content p{
+    color: #FFFFFF;
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 22px;
+}
+content p :nth-child(4){
+    font-weight: 700;
+}
+
+.itens{
+    left: 0;
+}
+.precos{
+    right: 0;
+    padding-right: 26px;
+}
+
+
+
 /* Seleção de opções */
 
 .selecionado{
@@ -193,3 +289,5 @@ h2{
     background-color: #32B72F;
     
 }
+
+
